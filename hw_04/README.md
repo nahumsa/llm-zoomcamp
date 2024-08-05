@@ -19,9 +19,9 @@ answer_llm = df.iloc[0].answer_llm
 What's the first value of the resulting vector?
 
 * [X] -0.42
-* [] -0.22
-* [] -0.02
-* [] 0.21
+* [ ] -0.22
+* [ ] -0.02
+* [ ] 0.21
 
 ## Q2. Computing the dot product
 
@@ -31,10 +31,10 @@ We will put the results (scores) into the `evaluations` list
 
 What's the 75% percentile of the score?
 
-* [] 21.67
+* [ ] 21.67
 * [X] 31.67
-* [] 41.67
-* [] 51.67
+* [ ] 41.67
+* [ ] 51.67
 
 ## Q3. Computing the cosine
 
@@ -61,10 +61,10 @@ between normalized vectors. This will give us cosine similarity
 
 What's the 75% cosine in the scores?
 
-* [] 0.63
-* [] 0.73
+* [ ] 0.63
+* [ ] 0.73
 * [X] 0.83
-* [] 0.93
+* [ ] 0.93
 
 ## Q4. Rouge
 
@@ -99,19 +99,19 @@ There are three scores: `rouge-1`, `rouge-2` and `rouge-l`, and precision, recal
 
 What's the F score for `rouge-1`?
 
-* [] 0.35
+* [ ] 0.35
 * [X] 0.45
-* [] 0.55
-* [] 0.65
+* [ ] 0.55
+* [ ] 0.65
 
 ## Q5. Average rouge score
 
 Let's compute the average F-score between `rouge-1`, `rouge-2` and `rouge-l` for the same record from Q4
 
 * [X] 0.35
-* [] 0.45
-* [] 0.55
-* [] 0.65
+* [ ] 0.45
+* [ ] 0.55
+* [ ] 0.65
 
 ## Q6. Average rouge score for all the data points
 
@@ -119,7 +119,7 @@ Now let's compute the F-score for all the records and create a dataframe from th
 
 What's the average F-score in `rouge_2` across all the records?
 
-* [] 0.10
+* [ ] 0.10
 * [X] 0.20
-* [] 0.30
-* [] 0.40
+* [ ] 0.30
+* [ ] 0.40
